@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A92C8A511E8303B100A85235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A501E8303B100A85235 /* AppDelegate.swift */; };
+		A92C8A531E8303B100A85235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A521E8303B100A85235 /* ViewController.swift */; };
+		A92C8A561E8303B100A85235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A541E8303B100A85235 /* Main.storyboard */; };
+		A92C8A581E8303B200A85235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A571E8303B200A85235 /* Assets.xcassets */; };
+		A92C8A5B1E8303B200A85235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A591E8303B200A85235 /* LaunchScreen.storyboard */; };
+		A92C8A661E8303B200A85235 /* HolidaySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A651E8303B200A85235 /* HolidaySearchTests.swift */; };
+		A92C8A711E8303B200A85235 /* HolidaySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A92C8A621E8303B200A85235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92C8A451E8303B100A85235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92C8A4C1E8303B100A85235;
+			remoteInfo = HolidaySearch;
+		};
+		A92C8A6D1E8303B200A85235 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A92C8A451E8303B100A85235 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A92C8A4C1E8303B100A85235;
+			remoteInfo = HolidaySearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A92C8A4D1E8303B100A85235 /* HolidaySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidaySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92C8A501E8303B100A85235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A92C8A521E8303B100A85235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A92C8A551E8303B100A85235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A92C8A571E8303B200A85235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A92C8A5A1E8303B200A85235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A92C8A5C1E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92C8A611E8303B200A85235 /* HolidaySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidaySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92C8A651E8303B200A85235 /* HolidaySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaySearchTests.swift; sourceTree = "<group>"; };
+		A92C8A671E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92C8A6C1E8303B200A85235 /* HolidaySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidaySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaySearchUITests.swift; sourceTree = "<group>"; };
+		A92C8A721E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A92C8A4A1E8303B100A85235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92C8A5E1E8303B200A85235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92C8A691E8303B200A85235 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A92C8A441E8303B100A85235 = {
+			isa = PBXGroup;
+			children = (
+				A92C8A4F1E8303B100A85235 /* HolidaySearch */,
+				A92C8A641E8303B200A85235 /* HolidaySearchTests */,
+				A92C8A6F1E8303B200A85235 /* HolidaySearchUITests */,
+				A92C8A4E1E8303B100A85235 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A92C8A4E1E8303B100A85235 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A92C8A4D1E8303B100A85235 /* HolidaySearch.app */,
+				A92C8A611E8303B200A85235 /* HolidaySearchTests.xctest */,
+				A92C8A6C1E8303B200A85235 /* HolidaySearchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A92C8A4F1E8303B100A85235 /* HolidaySearch */ = {
+			isa = PBXGroup;
+			children = (
+				A92C8A501E8303B100A85235 /* AppDelegate.swift */,
+				A92C8A521E8303B100A85235 /* ViewController.swift */,
+				A92C8A541E8303B100A85235 /* Main.storyboard */,
+				A92C8A571E8303B200A85235 /* Assets.xcassets */,
+				A92C8A591E8303B200A85235 /* LaunchScreen.storyboard */,
+				A92C8A5C1E8303B200A85235 /* Info.plist */,
+			);
+			path = HolidaySearch;
+			sourceTree = "<group>";
+		};
+		A92C8A641E8303B200A85235 /* HolidaySearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				A92C8A651E8303B200A85235 /* HolidaySearchTests.swift */,
+				A92C8A671E8303B200A85235 /* Info.plist */,
+			);
+			path = HolidaySearchTests;
+			sourceTree = "<group>";
+		};
+		A92C8A6F1E8303B200A85235 /* HolidaySearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */,
+				A92C8A721E8303B200A85235 /* Info.plist */,
+			);
+			path = HolidaySearchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A92C8A4C1E8303B100A85235 /* HolidaySearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92C8A751E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearch" */;
+			buildPhases = (
+				A92C8A491E8303B100A85235 /* Sources */,
+				A92C8A4A1E8303B100A85235 /* Frameworks */,
+				A92C8A4B1E8303B100A85235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HolidaySearch;
+			productName = HolidaySearch;
+			productReference = A92C8A4D1E8303B100A85235 /* HolidaySearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A92C8A601E8303B200A85235 /* HolidaySearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92C8A781E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearchTests" */;
+			buildPhases = (
+				A92C8A5D1E8303B200A85235 /* Sources */,
+				A92C8A5E1E8303B200A85235 /* Frameworks */,
+				A92C8A5F1E8303B200A85235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92C8A631E8303B200A85235 /* PBXTargetDependency */,
+			);
+			name = HolidaySearchTests;
+			productName = HolidaySearchTests;
+			productReference = A92C8A611E8303B200A85235 /* HolidaySearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A92C8A6B1E8303B200A85235 /* HolidaySearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A92C8A7B1E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearchUITests" */;
+			buildPhases = (
+				A92C8A681E8303B200A85235 /* Sources */,
+				A92C8A691E8303B200A85235 /* Frameworks */,
+				A92C8A6A1E8303B200A85235 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A92C8A6E1E8303B200A85235 /* PBXTargetDependency */,
+			);
+			name = HolidaySearchUITests;
+			productName = HolidaySearchUITests;
+			productReference = A92C8A6C1E8303B200A85235 /* HolidaySearchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A92C8A451E8303B100A85235 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jeroen Dunselman";
+				TargetAttributes = {
+					A92C8A4C1E8303B100A85235 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 447M47227T;
+						ProvisioningStyle = Automatic;
+					};
+					A92C8A601E8303B200A85235 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 447M47227T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A92C8A4C1E8303B100A85235;
+					};
+					A92C8A6B1E8303B200A85235 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 447M47227T;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A92C8A4C1E8303B100A85235;
+					};
+				};
+			};
+			buildConfigurationList = A92C8A481E8303B100A85235 /* Build configuration list for PBXProject "HolidaySearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A92C8A441E8303B100A85235;
+			productRefGroup = A92C8A4E1E8303B100A85235 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A92C8A4C1E8303B100A85235 /* HolidaySearch */,
+				A92C8A601E8303B200A85235 /* HolidaySearchTests */,
+				A92C8A6B1E8303B200A85235 /* HolidaySearchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A92C8A4B1E8303B100A85235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92C8A5B1E8303B200A85235 /* LaunchScreen.storyboard in Resources */,
+				A92C8A581E8303B200A85235 /* Assets.xcassets in Resources */,
+				A92C8A561E8303B100A85235 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92C8A5F1E8303B200A85235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92C8A6A1E8303B200A85235 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A92C8A491E8303B100A85235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92C8A531E8303B100A85235 /* ViewController.swift in Sources */,
+				A92C8A511E8303B100A85235 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92C8A5D1E8303B200A85235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92C8A661E8303B200A85235 /* HolidaySearchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A92C8A681E8303B200A85235 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A92C8A711E8303B200A85235 /* HolidaySearchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A92C8A631E8303B200A85235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92C8A4C1E8303B100A85235 /* HolidaySearch */;
+			targetProxy = A92C8A621E8303B200A85235 /* PBXContainerItemProxy */;
+		};
+		A92C8A6E1E8303B200A85235 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A92C8A4C1E8303B100A85235 /* HolidaySearch */;
+			targetProxy = A92C8A6D1E8303B200A85235 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A92C8A541E8303B100A85235 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92C8A551E8303B100A85235 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A92C8A591E8303B200A85235 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A92C8A5A1E8303B200A85235 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A92C8A731E8303B200A85235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A92C8A741E8303B200A85235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A92C8A761E8303B200A85235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = HolidaySearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.HolidaySearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A92C8A771E8303B200A85235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = HolidaySearch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.HolidaySearch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A92C8A791E8303B200A85235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = HolidaySearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.HolidaySearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidaySearch.app/HolidaySearch";
+			};
+			name = Debug;
+		};
+		A92C8A7A1E8303B200A85235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = HolidaySearchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.HolidaySearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HolidaySearch.app/HolidaySearch";
+			};
+			name = Release;
+		};
+		A92C8A7C1E8303B200A85235 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = HolidaySearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.HolidaySearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HolidaySearch;
+			};
+			name = Debug;
+		};
+		A92C8A7D1E8303B200A85235 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 447M47227T;
+				INFOPLIST_FILE = HolidaySearchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.onomatopee.HolidaySearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = HolidaySearch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A92C8A481E8303B100A85235 /* Build configuration list for PBXProject "HolidaySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92C8A731E8303B200A85235 /* Debug */,
+				A92C8A741E8303B200A85235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A92C8A751E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92C8A761E8303B200A85235 /* Debug */,
+				A92C8A771E8303B200A85235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A92C8A781E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92C8A791E8303B200A85235 /* Debug */,
+				A92C8A7A1E8303B200A85235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A92C8A7B1E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A92C8A7C1E8303B200A85235 /* Debug */,
+				A92C8A7D1E8303B200A85235 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A92C8A451E8303B100A85235 /* Project object */;
+}
