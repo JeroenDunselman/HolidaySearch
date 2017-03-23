@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A92394471E83FCD200AF3812 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394461E83FCD200AF3812 /* MyViewController.swift */; };
+		A923944D1E84130A00AF3812 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A923944A1E84130A00AF3812 /* data.json */; };
+		A923944E1E84130A00AF3812 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923944B1E84130A00AF3812 /* Date.swift */; };
+		A923944F1E84130A00AF3812 /* Celebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923944C1E84130A00AF3812 /* Celebration.swift */; };
+		A92394511E84135400AF3812 /* DateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394501E84135400AF3812 /* DateViewModel.swift */; };
 		A92C8A511E8303B100A85235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A501E8303B100A85235 /* AppDelegate.swift */; };
 		A92C8A531E8303B100A85235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A521E8303B100A85235 /* ViewController.swift */; };
 		A92C8A561E8303B100A85235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A541E8303B100A85235 /* Main.storyboard */; };
@@ -14,6 +19,10 @@
 		A92C8A5B1E8303B200A85235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A591E8303B200A85235 /* LaunchScreen.storyboard */; };
 		A92C8A661E8303B200A85235 /* HolidaySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A651E8303B200A85235 /* HolidaySearchTests.swift */; };
 		A92C8A711E8303B200A85235 /* HolidaySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */; };
+		A92C8A821E83043500A85235 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A811E83043500A85235 /* SearchViewModel.swift */; };
+		A92C8A851E83B78400A85235 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A831E83B78400A85235 /* SearchViewController.swift */; };
+		A92C8A861E83B78400A85235 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A841E83B78400A85235 /* SearchViewController.xib */; };
+		D0BFED12C5FD5C35AF13D06A /* Pods_HolidaySearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76539E4F87CC4118CB34DF73 /* Pods_HolidaySearch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		76539E4F87CC4118CB34DF73 /* Pods_HolidaySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolidaySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ACAA5ECD8BB3CF549389202 /* Pods-HolidaySearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-HolidaySearch/Pods-HolidaySearch.release.xcconfig"; sourceTree = "<group>"; };
+		A92394461E83FCD200AF3812 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		A923944A1E84130A00AF3812 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		A923944B1E84130A00AF3812 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		A923944C1E84130A00AF3812 /* Celebration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Celebration.swift; sourceTree = "<group>"; };
+		A92394501E84135400AF3812 /* DateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewModel.swift; sourceTree = "<group>"; };
 		A92C8A4D1E8303B100A85235 /* HolidaySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidaySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92C8A501E8303B100A85235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A92C8A521E8303B100A85235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,10 @@
 		A92C8A6C1E8303B200A85235 /* HolidaySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidaySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaySearchUITests.swift; sourceTree = "<group>"; };
 		A92C8A721E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92C8A811E83043500A85235 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		A92C8A831E83B78400A85235 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		A92C8A841E83B78400A85235 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		BA4A427DE8269350074F1F91 /* Pods-HolidaySearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HolidaySearch/Pods-HolidaySearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0BFED12C5FD5C35AF13D06A /* Pods_HolidaySearch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63EA299852A6AA6E7AEB54E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76539E4F87CC4118CB34DF73 /* Pods_HolidaySearch.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B04ADE74305376783FA1A77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BA4A427DE8269350074F1F91 /* Pods-HolidaySearch.debug.xcconfig */,
+				9ACAA5ECD8BB3CF549389202 /* Pods-HolidaySearch.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A92C8A441E8303B100A85235 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				A92C8A641E8303B200A85235 /* HolidaySearchTests */,
 				A92C8A6F1E8303B200A85235 /* HolidaySearchUITests */,
 				A92C8A4E1E8303B100A85235 /* Products */,
+				9B04ADE74305376783FA1A77 /* Pods */,
+				63EA299852A6AA6E7AEB54E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +137,9 @@
 		A92C8A4F1E8303B100A85235 /* HolidaySearch */ = {
 			isa = PBXGroup;
 			children = (
+				A92C8A801E83041800A85235 /* Model */,
+				A92C8A7F1E83040F00A85235 /* View */,
+				A92C8A7E1E8303DF00A85235 /* ViewModel */,
 				A92C8A501E8303B100A85235 /* AppDelegate.swift */,
 				A92C8A521E8303B100A85235 /* ViewController.swift */,
 				A92C8A541E8303B100A85235 /* Main.storyboard */,
@@ -125,6 +168,35 @@
 			path = HolidaySearchUITests;
 			sourceTree = "<group>";
 		};
+		A92C8A7E1E8303DF00A85235 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A92394501E84135400AF3812 /* DateViewModel.swift */,
+				A92C8A811E83043500A85235 /* SearchViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		A92C8A7F1E83040F00A85235 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A92C8A831E83B78400A85235 /* SearchViewController.swift */,
+				A92C8A841E83B78400A85235 /* SearchViewController.xib */,
+				A92394461E83FCD200AF3812 /* MyViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A92C8A801E83041800A85235 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A923944A1E84130A00AF3812 /* data.json */,
+				A923944B1E84130A00AF3812 /* Date.swift */,
+				A923944C1E84130A00AF3812 /* Celebration.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A92C8A751E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearch" */;
 			buildPhases = (
+				9B04CEC32D524498783DC428 /* Check Pods Manifest.lock */,
 				A92C8A491E8303B100A85235 /* Sources */,
 				A92C8A4A1E8303B100A85235 /* Frameworks */,
 				A92C8A4B1E8303B100A85235 /* Resources */,
+				16EC47312FB07B542081283F /* Embed Pods Frameworks */,
+				C08F7BC6B94688223DCB8C90 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -237,6 +312,8 @@
 			files = (
 				A92C8A5B1E8303B200A85235 /* LaunchScreen.storyboard in Resources */,
 				A92C8A581E8303B200A85235 /* Assets.xcassets in Resources */,
+				A92C8A861E83B78400A85235 /* SearchViewController.xib in Resources */,
+				A923944D1E84130A00AF3812 /* data.json in Resources */,
 				A92C8A561E8303B100A85235 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,12 +334,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16EC47312FB07B542081283F /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HolidaySearch/Pods-HolidaySearch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B04CEC32D524498783DC428 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C08F7BC6B94688223DCB8C90 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HolidaySearch/Pods-HolidaySearch-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A92C8A491E8303B100A85235 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A92394511E84135400AF3812 /* DateViewModel.swift in Sources */,
+				A923944F1E84130A00AF3812 /* Celebration.swift in Sources */,
+				A92C8A821E83043500A85235 /* SearchViewModel.swift in Sources */,
+				A923944E1E84130A00AF3812 /* Date.swift in Sources */,
 				A92C8A531E8303B100A85235 /* ViewController.swift in Sources */,
+				A92C8A851E83B78400A85235 /* SearchViewController.swift in Sources */,
+				A92394471E83FCD200AF3812 /* MyViewController.swift in Sources */,
 				A92C8A511E8303B100A85235 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,7 +542,9 @@
 		};
 		A92C8A761E8303B200A85235 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4A427DE8269350074F1F91 /* Pods-HolidaySearch.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 447M47227T;
 				INFOPLIST_FILE = HolidaySearch/Info.plist;
@@ -424,7 +557,9 @@
 		};
 		A92C8A771E8303B200A85235 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ACAA5ECD8BB3CF549389202 /* Pods-HolidaySearch.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 447M47227T;
 				INFOPLIST_FILE = HolidaySearch/Info.plist;
@@ -512,6 +647,7 @@
 				A92C8A771E8303B200A85235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A92C8A781E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearchTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +656,7 @@
 				A92C8A7A1E8303B200A85235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A92C8A7B1E8303B200A85235 /* Build configuration list for PBXNativeTarget "HolidaySearchUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +665,7 @@
 				A92C8A7D1E8303B200A85235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
