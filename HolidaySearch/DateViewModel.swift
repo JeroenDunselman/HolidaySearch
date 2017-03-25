@@ -20,19 +20,47 @@ class DateViewModel {
 //  var dateWeekdayText: BehaviorSubject<String>
   
   var dateColour: UIColor {
+//    if ( as String?) != nil {
+    if date.celebrations[0].title.characters.count > 0 {
+      return UIColor.white
+    }
     return UIColor.gray
   }
   
-  var dateText: String {
-    return date.date
+  var seasonColour: UIColor {
+    
+    var result :UIColor
+    switch date.season {
+    case "ordinary":
+      result = UIColor.gray
+    case "advent":
+      result = UIColor.lightGray
+    case "christmas":
+      result = UIColor.white
+    default :
+      result = UIColor.black
+    }
+    return  result
   }
   
-  var weekdayText: String {
+  var dateText: String {
+    return "\(date.date) \(weekDayText)"
+  }
+  
+  var weekDayText: String {
+    return "\(date.date) - \(self.seasonText) \(date.weekday)"
+  }
+  
+  var searchText: String {
     return date.weekday
   }
   
   var seasonText: String {
-    return date.season
+    var result = ""
+    if date.season != "ordinary" {
+      result = "season of \(date.season)"
+    }
+    return result
   }
 //  var horsepowerText: String {
 //    let horsepower = Int(round(Double(date.) * DateViewModel.horsepowerPerKilowatt))
@@ -40,7 +68,12 @@ class DateViewModel {
 //  }
   
   var titleText: String {
-    return "\(date.weekday) \(date.celebrations[0].title)"
+//    var result = ""
+//    let title:String = "\(date.celebrations[0].title)"
+//    if title.characters.count > 0 {
+//      result = title
+//    }
+    return "\(date.celebrations[0].title)" //result
   }
   
 //  var photoURL: URL? {

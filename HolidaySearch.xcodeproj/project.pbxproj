@@ -7,21 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A92394471E83FCD200AF3812 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394461E83FCD200AF3812 /* MyViewController.swift */; };
+		A904C6C21E85429900B8B70E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6C11E85429900B8B70E /* AddViewController.swift */; };
+		A904C6C41E8542DB00B8B70E /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6C31E8542DB00B8B70E /* AddViewModel.swift */; };
+		A904C6C61E85555A00B8B70E /* SimpleTableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6C51E85555A00B8B70E /* SimpleTableViewExampleViewController.swift */; };
+		A904C6CD1E8559D300B8B70E /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6CB1E8559D300B8B70E /* WeatherViewModel.swift */; };
+		A904C6CE1E8559D300B8B70E /* WeatherOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6CC1E8559D300B8B70E /* WeatherOverviewViewController.swift */; };
+		A904C6D01E8559F700B8B70E /* WeatherAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6CF1E8559F700B8B70E /* WeatherAPIService.swift */; };
+		A92394471E83FCD200AF3812 /* WeekdaySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394461E83FCD200AF3812 /* WeekdaySearchViewController.swift */; };
 		A923944D1E84130A00AF3812 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A923944A1E84130A00AF3812 /* data.json */; };
 		A923944E1E84130A00AF3812 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923944B1E84130A00AF3812 /* Date.swift */; };
 		A923944F1E84130A00AF3812 /* Celebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923944C1E84130A00AF3812 /* Celebration.swift */; };
 		A92394511E84135400AF3812 /* DateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394501E84135400AF3812 /* DateViewModel.swift */; };
+		A923948F1E85148300AF3812 /* HolidayNameSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923948E1E85148300AF3812 /* HolidayNameSearchViewController.swift */; };
+		A92394941E85232700AF3812 /* MyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394921E85232700AF3812 /* MyTestViewController.swift */; };
+		A92394951E85232700AF3812 /* MyTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92394931E85232700AF3812 /* MyTestViewController.xib */; };
+		A923949B1E852CF400AF3812 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923949A1E852CF400AF3812 /* LoginViewModel.swift */; };
 		A92C8A511E8303B100A85235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A501E8303B100A85235 /* AppDelegate.swift */; };
-		A92C8A531E8303B100A85235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A521E8303B100A85235 /* ViewController.swift */; };
 		A92C8A561E8303B100A85235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A541E8303B100A85235 /* Main.storyboard */; };
 		A92C8A581E8303B200A85235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A571E8303B200A85235 /* Assets.xcassets */; };
 		A92C8A5B1E8303B200A85235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A591E8303B200A85235 /* LaunchScreen.storyboard */; };
 		A92C8A661E8303B200A85235 /* HolidaySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A651E8303B200A85235 /* HolidaySearchTests.swift */; };
 		A92C8A711E8303B200A85235 /* HolidaySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */; };
 		A92C8A821E83043500A85235 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A811E83043500A85235 /* SearchViewModel.swift */; };
-		A92C8A851E83B78400A85235 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A831E83B78400A85235 /* SearchViewController.swift */; };
-		A92C8A861E83B78400A85235 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A841E83B78400A85235 /* SearchViewController.xib */; };
+		A9C15E5E1E865E63004383BE /* CelebrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C15E5D1E865E63004383BE /* CelebrationViewController.swift */; };
+		A9C15E601E865E6D004383BE /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C15E5F1E865E6D004383BE /* Structs.swift */; };
+		A9C15E621E865E7C004383BE /* CelebrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C15E611E865E7C004383BE /* CelebrationService.swift */; };
+		A9C15E641E865E8A004383BE /* CelebrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C15E631E865E8A004383BE /* CelebrationPresenter.swift */; };
 		D0BFED12C5FD5C35AF13D06A /* Pods_HolidaySearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76539E4F87CC4118CB34DF73 /* Pods_HolidaySearch.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,14 +56,23 @@
 /* Begin PBXFileReference section */
 		76539E4F87CC4118CB34DF73 /* Pods_HolidaySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolidaySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACAA5ECD8BB3CF549389202 /* Pods-HolidaySearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-HolidaySearch/Pods-HolidaySearch.release.xcconfig"; sourceTree = "<group>"; };
-		A92394461E83FCD200AF3812 /* MyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
+		A904C6C11E85429900B8B70E /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		A904C6C31E8542DB00B8B70E /* AddViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
+		A904C6C51E85555A00B8B70E /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleViewController.swift; sourceTree = "<group>"; };
+		A904C6CB1E8559D300B8B70E /* WeatherViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		A904C6CC1E8559D300B8B70E /* WeatherOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherOverviewViewController.swift; sourceTree = "<group>"; };
+		A904C6CF1E8559F700B8B70E /* WeatherAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPIService.swift; sourceTree = "<group>"; };
+		A92394461E83FCD200AF3812 /* WeekdaySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaySearchViewController.swift; sourceTree = "<group>"; };
 		A923944A1E84130A00AF3812 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		A923944B1E84130A00AF3812 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		A923944C1E84130A00AF3812 /* Celebration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Celebration.swift; sourceTree = "<group>"; };
 		A92394501E84135400AF3812 /* DateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewModel.swift; sourceTree = "<group>"; };
+		A923948E1E85148300AF3812 /* HolidayNameSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayNameSearchViewController.swift; sourceTree = "<group>"; };
+		A92394921E85232700AF3812 /* MyTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTestViewController.swift; sourceTree = "<group>"; };
+		A92394931E85232700AF3812 /* MyTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTestViewController.xib; sourceTree = "<group>"; };
+		A923949A1E852CF400AF3812 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		A92C8A4D1E8303B100A85235 /* HolidaySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidaySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92C8A501E8303B100A85235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A92C8A521E8303B100A85235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A92C8A551E8303B100A85235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A92C8A571E8303B200A85235 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A92C8A5A1E8303B200A85235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,8 +84,10 @@
 		A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaySearchUITests.swift; sourceTree = "<group>"; };
 		A92C8A721E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92C8A811E83043500A85235 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
-		A92C8A831E83B78400A85235 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		A92C8A841E83B78400A85235 /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		A9C15E5D1E865E63004383BE /* CelebrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationViewController.swift; sourceTree = "<group>"; };
+		A9C15E5F1E865E6D004383BE /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		A9C15E611E865E7C004383BE /* CelebrationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationService.swift; sourceTree = "<group>"; };
+		A9C15E631E865E8A004383BE /* CelebrationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationPresenter.swift; sourceTree = "<group>"; };
 		BA4A427DE8269350074F1F91 /* Pods-HolidaySearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HolidaySearch/Pods-HolidaySearch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +134,67 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		A90B55651E8682F900B23D63 /* ignore */ = {
+			isa = PBXGroup;
+			children = (
+				A9C15E5F1E865E6D004383BE /* Structs.swift */,
+				A92394921E85232700AF3812 /* MyTestViewController.swift */,
+				A92394931E85232700AF3812 /* MyTestViewController.xib */,
+				A923949A1E852CF400AF3812 /* LoginViewModel.swift */,
+				A92C8A811E83043500A85235 /* SearchViewModel.swift */,
+				A904C6C31E8542DB00B8B70E /* AddViewModel.swift */,
+				A904C6CF1E8559F700B8B70E /* WeatherAPIService.swift */,
+				A904C6CB1E8559D300B8B70E /* WeatherViewModel.swift */,
+				A904C6CC1E8559D300B8B70E /* WeatherOverviewViewController.swift */,
+				A904C6C51E85555A00B8B70E /* SimpleTableViewExampleViewController.swift */,
+				A904C6C11E85429900B8B70E /* AddViewController.swift */,
+			);
+			name = ignore;
+			sourceTree = "<group>";
+		};
+		A90B55661E86837A00B23D63 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				A92C8A7E1E8303DF00A85235 /* ViewModel */,
+				A92C8A7F1E83040F00A85235 /* View */,
+			);
+			name = MVVM;
+			sourceTree = "<group>";
+		};
+		A90B55671E86838300B23D63 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				A90B55691E86846800B23D63 /* Presenter */,
+				A90B55681E86846100B23D63 /* View */,
+				A9C15E5D1E865E63004383BE /* CelebrationViewController.swift */,
+			);
+			name = MVP;
+			sourceTree = "<group>";
+		};
+		A90B55681E86846100B23D63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A90B55691E86846800B23D63 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A9C15E631E865E8A004383BE /* CelebrationPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		A90B556B1E86A09C00B23D63 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A923944A1E84130A00AF3812 /* data.json */,
+				A9C15E611E865E7C004383BE /* CelebrationService.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		A92C8A441E8303B100A85235 = {
 			isa = PBXGroup;
 			children = (
@@ -138,10 +221,10 @@
 			isa = PBXGroup;
 			children = (
 				A92C8A801E83041800A85235 /* Model */,
-				A92C8A7F1E83040F00A85235 /* View */,
-				A92C8A7E1E8303DF00A85235 /* ViewModel */,
+				A90B55671E86838300B23D63 /* MVP */,
+				A90B55661E86837A00B23D63 /* MVVM */,
+				A90B55651E8682F900B23D63 /* ignore */,
 				A92C8A501E8303B100A85235 /* AppDelegate.swift */,
-				A92C8A521E8303B100A85235 /* ViewController.swift */,
 				A92C8A541E8303B100A85235 /* Main.storyboard */,
 				A92C8A571E8303B200A85235 /* Assets.xcassets */,
 				A92C8A591E8303B200A85235 /* LaunchScreen.storyboard */,
@@ -172,7 +255,6 @@
 			isa = PBXGroup;
 			children = (
 				A92394501E84135400AF3812 /* DateViewModel.swift */,
-				A92C8A811E83043500A85235 /* SearchViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -180,9 +262,8 @@
 		A92C8A7F1E83040F00A85235 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A92C8A831E83B78400A85235 /* SearchViewController.swift */,
-				A92C8A841E83B78400A85235 /* SearchViewController.xib */,
-				A92394461E83FCD200AF3812 /* MyViewController.swift */,
+				A92394461E83FCD200AF3812 /* WeekdaySearchViewController.swift */,
+				A923948E1E85148300AF3812 /* HolidayNameSearchViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -190,7 +271,7 @@
 		A92C8A801E83041800A85235 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				A923944A1E84130A00AF3812 /* data.json */,
+				A90B556B1E86A09C00B23D63 /* Data */,
 				A923944B1E84130A00AF3812 /* Date.swift */,
 				A923944C1E84130A00AF3812 /* Celebration.swift */,
 			);
@@ -269,17 +350,20 @@
 					A92C8A4C1E8303B100A85235 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 447M47227T;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					A92C8A601E8303B200A85235 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 447M47227T;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A92C8A4C1E8303B100A85235;
 					};
 					A92C8A6B1E8303B200A85235 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 447M47227T;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = A92C8A4C1E8303B100A85235;
 					};
@@ -312,9 +396,9 @@
 			files = (
 				A92C8A5B1E8303B200A85235 /* LaunchScreen.storyboard in Resources */,
 				A92C8A581E8303B200A85235 /* Assets.xcassets in Resources */,
-				A92C8A861E83B78400A85235 /* SearchViewController.xib in Resources */,
 				A923944D1E84130A00AF3812 /* data.json in Resources */,
 				A92C8A561E8303B100A85235 /* Main.storyboard in Resources */,
+				A92394951E85232700AF3812 /* MyTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,14 +471,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A904C6D01E8559F700B8B70E /* WeatherAPIService.swift in Sources */,
+				A9C15E5E1E865E63004383BE /* CelebrationViewController.swift in Sources */,
+				A9C15E621E865E7C004383BE /* CelebrationService.swift in Sources */,
+				A904C6C41E8542DB00B8B70E /* AddViewModel.swift in Sources */,
+				A904C6CD1E8559D300B8B70E /* WeatherViewModel.swift in Sources */,
+				A904C6C21E85429900B8B70E /* AddViewController.swift in Sources */,
+				A923948F1E85148300AF3812 /* HolidayNameSearchViewController.swift in Sources */,
 				A92394511E84135400AF3812 /* DateViewModel.swift in Sources */,
+				A9C15E641E865E8A004383BE /* CelebrationPresenter.swift in Sources */,
+				A9C15E601E865E6D004383BE /* Structs.swift in Sources */,
 				A923944F1E84130A00AF3812 /* Celebration.swift in Sources */,
+				A904C6C61E85555A00B8B70E /* SimpleTableViewExampleViewController.swift in Sources */,
+				A92394941E85232700AF3812 /* MyTestViewController.swift in Sources */,
 				A92C8A821E83043500A85235 /* SearchViewModel.swift in Sources */,
 				A923944E1E84130A00AF3812 /* Date.swift in Sources */,
-				A92C8A531E8303B100A85235 /* ViewController.swift in Sources */,
-				A92C8A851E83B78400A85235 /* SearchViewController.swift in Sources */,
-				A92394471E83FCD200AF3812 /* MyViewController.swift in Sources */,
+				A92394471E83FCD200AF3812 /* WeekdaySearchViewController.swift in Sources */,
 				A92C8A511E8303B100A85235 /* AppDelegate.swift in Sources */,
+				A904C6CE1E8559D300B8B70E /* WeatherOverviewViewController.swift in Sources */,
+				A923949B1E852CF400AF3812 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

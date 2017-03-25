@@ -7,20 +7,20 @@
 //
 
 import Foundation
-//import Celebration
 
 class Date {
   var weekday :String
   var date :String
   var season :String
+  var seasonWeek :Int
   var celebrations :[Celebration]
-//  let celebrations :NSArray
-  //  todo season_week
-  init (weekday: String, date: String, season: String, celebrations: [Celebration]) {
+
+  init (weekday: String, date: String, season: String, seasonWeek: Int, celebrations: [Celebration]) {
     self.weekday = weekday
     self.date = date
     self.season = season
     self.celebrations = celebrations
-    print(self.weekday, self.season, self.date, self.celebrations[0].title)
+    self.seasonWeek = seasonWeek
+//    print(self.weekday, self.season, self.date, self.celebrations[0].title)
   }
 }
