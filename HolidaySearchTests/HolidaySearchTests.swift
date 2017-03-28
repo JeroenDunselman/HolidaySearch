@@ -9,28 +9,88 @@
 import XCTest
 @testable import HolidaySearch
 
+class CelebrationServiceMock: CelebrationService {
+  let celebs: [Celebration]
+  init(celebrations: [Celebration]) {
+    self.celebs = celebrations
+  }
+  override func getCelebrations(_ callBack: @escaping ([Celebration]) -> Void) {
+    callBack(celebs)
+  }
+  
+}
+
+class CelebrationViewMock : NSObject, CelebrationView{
+  var setCelebrationsCalled = false
+  var setEmptyCelebrationsCalled = false
+  
+  func setCelebrations(_ celebrations: [CelebrationViewData]) {
+    setCelebrationsCalled = true
+  }
+  
+  func setEmptyCelebrations() {
+    setEmptyCelebrationsCalled = true
+  }
+  
+  func startLoading() {
+  }
+  
+  func finishLoading() {
+  }
+  
+}
 class HolidaySearchTests: XCTestCase {
     
-    override func setUp() {
-        super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+  let emptyCelebrationsServiceMock = CelebrationServiceMock(celebrations:[Celebration]())
+  
+  var date:Day
+  var twoCelebrationsServiceMock: CelebrationServiceMock
+  override init() {
     
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
-    }
+    date = Day(weekday: "wednesday", date: "2017-03-27", season: "ordinary", seasonWeek: 12, celebrations: [Celebration]())
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
+    twoCelebrationsServiceMock = CelebrationServiceMock(celebrations:[
+      Celebration(title: "celebration1", colour: "green", rank: "ordinary", num: 3.12, dateText: "2017-03-27", dateInfo: DayViewModel(date: date)),
+      Celebration(title: "celebration2", colour: "red", rank: "solemnity", num: 1.3, dateText: "2017-03-27", dateInfo: DayViewModel(date: date))
+      ])
+    super.init()
+  }
+  
+
+  
+  func testShouldSetEmptyIfNoCelebrationAvailable() {
+    //given
+    let celebrationViewMock = CelebrationViewMock()
+    let celebrationPresenterUnderTest = CelebrationPresenter(celebrationService: emptyCelebrationsServiceMock)
+    celebrationPresenterUnderTest.attachView(celebrationViewMock)
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
+    //when
+    celebrationPresenterUnderTest.getCelebrations()
     
+    //verify
+    XCTAssertTrue(celebrationViewMock.setEmptyCelebrationsCalled)
+  }
+  
+  func testShouldSetCelebrations() {
+    //given
+    let celebrationViewMock = CelebrationViewMock()
+    let celebrationPresenterUnderTest = CelebrationPresenter(celebrationService: twoCelebrationsServiceMock)
+    celebrationPresenterUnderTest.attachView(celebrationViewMock)
+    
+    //when
+    celebrationPresenterUnderTest.getCelebrations()
+    
+    //verify
+    XCTAssertTrue(celebrationViewMock.setCelebrationsCalled)
+  }
+  override func setUp() {
+    super.setUp()
+    // Put setup code here. This method is called before the invocation of each test method in the class.
+  }
+  
+  override func tearDown() {
+    // Put teardown code here. This method is called after the invocation of each test method in the class.
+    super.tearDown()
+  }
 }
+

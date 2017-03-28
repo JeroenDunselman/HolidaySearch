@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Date {
+class Day {
   var weekday :String
   var date :String
   var season :String
@@ -21,6 +21,6 @@ class Date {
     self.season = season
     self.celebrations = celebrations
     self.seasonWeek = seasonWeek
-//    print(self.weekday, self.season, self.date, self.celebrations[0].title)
+
   }
 }

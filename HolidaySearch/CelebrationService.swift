@@ -1,28 +1,17 @@
 
 import Foundation
 
-
 class CelebrationService {
   var celebrations:[Celebration] = []
-  //the service delivers 'data.json' data with a delay
-  func getCelebrations(_ callBack:@escaping ([Celebration]) -> Void){
-
-    let celebrations: [Celebration] = parseCelebList()
-    let delayTime = DispatchTime.now() + Double(Int64(2 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
-      DispatchQueue.main.asyncAfter(deadline: delayTime) {
-        callBack(celebrations)
-      }
-  }
   
   func parseCelebList() -> [Celebration] {
     _ = readJson()
     return celebrations
   }
   
-  func readJson() -> [DateViewModel] {
-    //    var celebs: [Celebration] = []
-    var dates: [Date] = []
-    var dateVMs: [DateViewModel] = []
+  func readJson() -> [DayViewModel] {
+    var dates: [Day] = []
+    var dateVMs: [DayViewModel] = []
     
     do {
       if let file = Bundle.main.url(forResource: "data", withExtension: "json") {
@@ -40,34 +29,27 @@ class CelebrationService {
               let seasonWeek = date["season_week"] as? Int
               var dateCelebrations:[Celebration] = []
               
-              let aDate = Date.init(weekday: weekday!, date: value!, season: season!, seasonWeek: seasonWeek!, celebrations: dateCelebrations)
+              let aDate = Day.init(weekday: weekday!, date: value!, season: season!, seasonWeek: seasonWeek!, celebrations: dateCelebrations)
               
               if let x = date["celebrations"] as? NSArray {
-                //              print("Celebrating \n\(x)")
-                //              celebrations = x.map{}
                 for j in 0...x.count-1 {
                   if let c = x[j] as? [String: Any] {
-                    //                  print(celebration)
+
                     let title = c["title"] as? String
                     let rank = c["rank"] as? String
                     let rank_num = c["rank_num"] as? Double
                     let colour = c["colour"] as? String
-                    let dateVM : DateViewModel = DateViewModel.init(date:aDate)
+                    let dateVM = DayViewModel.init(date:aDate)
                     
                     let celebration = Celebration.init(title: title!, colour: colour!, rank: rank!, num: rank_num!, dateText: value!, dateInfo: dateVM)
                     dateCelebrations.append(celebration)
                     celebrations.append(celebration)
-                    //                  print(title!)
                   }
                 }
-//                print(celebrations.count)
               }
               aDate.celebrations = dateCelebrations
-              
-              //              print("\nDate: \n")
-              //              print(aDate.weekday)
               dates.append(aDate)
-              let dateVM = DateViewModel.init(date: aDate)
+              let dateVM = DayViewModel.init(date: aDate)
               dateVMs.append(dateVM)
             }
           }
@@ -83,7 +65,20 @@ class CelebrationService {
     
     return dateVMs
   }
+  
+  //delivers 'data.json' data with a delay 
+  //(testing example, not in use)
+  func getCelebrations(_ callBack:@escaping ([Celebration]) -> Void){
+    
+    let celebrations: [Celebration] = parseCelebList()
+    let delayTime = DispatchTime.now() + Double(Int64(2 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
+    DispatchQueue.main.asyncAfter(deadline: delayTime) {
+      callBack(celebrations)
+    }
+  }
+  
 }
+
 
 //class  UserService {
 //
@@ -99,3 +94,8 @@ class CelebrationService {
 //        }
 //    }
 //}
+
+//  func parseCelebVMList() -> [CelebrationViewModel] {
+//    _ = readJson()
+//    return celebrationVMs
+//  }

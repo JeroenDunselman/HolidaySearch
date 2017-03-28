@@ -7,30 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A904C6C21E85429900B8B70E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6C11E85429900B8B70E /* AddViewController.swift */; };
-		A904C6C41E8542DB00B8B70E /* AddViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6C31E8542DB00B8B70E /* AddViewModel.swift */; };
-		A904C6C61E85555A00B8B70E /* SimpleTableViewExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6C51E85555A00B8B70E /* SimpleTableViewExampleViewController.swift */; };
-		A904C6CD1E8559D300B8B70E /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6CB1E8559D300B8B70E /* WeatherViewModel.swift */; };
-		A904C6CE1E8559D300B8B70E /* WeatherOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6CC1E8559D300B8B70E /* WeatherOverviewViewController.swift */; };
-		A904C6D01E8559F700B8B70E /* WeatherAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A904C6CF1E8559F700B8B70E /* WeatherAPIService.swift */; };
+		A90B556D1E86DFEE00B23D63 /* CelebrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90B556C1E86DFEE00B23D63 /* CelebrationViewModel.swift */; };
+		A90B55711E87B44D00B23D63 /* CelebrationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90B55701E87B44D00B23D63 /* CelebrationViewCell.swift */; };
+		A91CA81B1E884D9600078E46 /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA8161E884D9600078E46 /* CalendarDayCell.swift */; };
+		A91CA81C1E884D9600078E46 /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA8171E884D9600078E46 /* CalendarFlowLayout.swift */; };
+		A91CA81D1E884D9600078E46 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA8181E884D9600078E46 /* CalendarHeaderView.swift */; };
+		A91CA81E1E884D9600078E46 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA8191E884D9600078E46 /* CalendarVC.swift */; };
+		A91CA8211E89336900078E46 /* NameDayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA8201E89336900078E46 /* NameDayPresenter.swift */; };
+		A91CA8231E894D1D00078E46 /* DateViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA8221E894D1D00078E46 /* DateViewModelTest.swift */; };
+		A91CA8251E895AE200078E46 /* CelebrationViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA8241E895AE200078E46 /* CelebrationViewControllerTests.swift */; };
+		A91CA8271E895DB400078E46 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A91CA8261E895DB400078E46 /* CalendarView.swift */; };
 		A92394471E83FCD200AF3812 /* WeekdaySearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394461E83FCD200AF3812 /* WeekdaySearchViewController.swift */; };
 		A923944D1E84130A00AF3812 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A923944A1E84130A00AF3812 /* data.json */; };
-		A923944E1E84130A00AF3812 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923944B1E84130A00AF3812 /* Date.swift */; };
+		A923944E1E84130A00AF3812 /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923944B1E84130A00AF3812 /* Day.swift */; };
 		A923944F1E84130A00AF3812 /* Celebration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923944C1E84130A00AF3812 /* Celebration.swift */; };
 		A92394511E84135400AF3812 /* DateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394501E84135400AF3812 /* DateViewModel.swift */; };
 		A923948F1E85148300AF3812 /* HolidayNameSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923948E1E85148300AF3812 /* HolidayNameSearchViewController.swift */; };
-		A92394941E85232700AF3812 /* MyTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92394921E85232700AF3812 /* MyTestViewController.swift */; };
-		A92394951E85232700AF3812 /* MyTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A92394931E85232700AF3812 /* MyTestViewController.xib */; };
-		A923949B1E852CF400AF3812 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923949A1E852CF400AF3812 /* LoginViewModel.swift */; };
 		A92C8A511E8303B100A85235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A501E8303B100A85235 /* AppDelegate.swift */; };
 		A92C8A561E8303B100A85235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A541E8303B100A85235 /* Main.storyboard */; };
 		A92C8A581E8303B200A85235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A571E8303B200A85235 /* Assets.xcassets */; };
 		A92C8A5B1E8303B200A85235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A92C8A591E8303B200A85235 /* LaunchScreen.storyboard */; };
 		A92C8A661E8303B200A85235 /* HolidaySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A651E8303B200A85235 /* HolidaySearchTests.swift */; };
 		A92C8A711E8303B200A85235 /* HolidaySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */; };
-		A92C8A821E83043500A85235 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A92C8A811E83043500A85235 /* SearchViewModel.swift */; };
 		A9C15E5E1E865E63004383BE /* CelebrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C15E5D1E865E63004383BE /* CelebrationViewController.swift */; };
-		A9C15E601E865E6D004383BE /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C15E5F1E865E6D004383BE /* Structs.swift */; };
 		A9C15E621E865E7C004383BE /* CelebrationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C15E611E865E7C004383BE /* CelebrationService.swift */; };
 		A9C15E641E865E8A004383BE /* CelebrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C15E631E865E8A004383BE /* CelebrationPresenter.swift */; };
 		D0BFED12C5FD5C35AF13D06A /* Pods_HolidaySearch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76539E4F87CC4118CB34DF73 /* Pods_HolidaySearch.framework */; };
@@ -56,21 +55,22 @@
 /* Begin PBXFileReference section */
 		76539E4F87CC4118CB34DF73 /* Pods_HolidaySearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HolidaySearch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9ACAA5ECD8BB3CF549389202 /* Pods-HolidaySearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySearch.release.xcconfig"; path = "Pods/Target Support Files/Pods-HolidaySearch/Pods-HolidaySearch.release.xcconfig"; sourceTree = "<group>"; };
-		A904C6C11E85429900B8B70E /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
-		A904C6C31E8542DB00B8B70E /* AddViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewModel.swift; sourceTree = "<group>"; };
-		A904C6C51E85555A00B8B70E /* SimpleTableViewExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewExampleViewController.swift; sourceTree = "<group>"; };
-		A904C6CB1E8559D300B8B70E /* WeatherViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
-		A904C6CC1E8559D300B8B70E /* WeatherOverviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherOverviewViewController.swift; sourceTree = "<group>"; };
-		A904C6CF1E8559F700B8B70E /* WeatherAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherAPIService.swift; sourceTree = "<group>"; };
+		A90B556C1E86DFEE00B23D63 /* CelebrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationViewModel.swift; sourceTree = "<group>"; };
+		A90B55701E87B44D00B23D63 /* CelebrationViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationViewCell.swift; sourceTree = "<group>"; };
+		A91CA8161E884D9600078E46 /* CalendarDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDayCell.swift; sourceTree = "<group>"; };
+		A91CA8171E884D9600078E46 /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarFlowLayout.swift; sourceTree = "<group>"; };
+		A91CA8181E884D9600078E46 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
+		A91CA8191E884D9600078E46 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		A91CA8201E89336900078E46 /* NameDayPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameDayPresenter.swift; sourceTree = "<group>"; };
+		A91CA8221E894D1D00078E46 /* DateViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewModelTest.swift; sourceTree = "<group>"; };
+		A91CA8241E895AE200078E46 /* CelebrationViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationViewControllerTests.swift; sourceTree = "<group>"; };
+		A91CA8261E895DB400078E46 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		A92394461E83FCD200AF3812 /* WeekdaySearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekdaySearchViewController.swift; sourceTree = "<group>"; };
 		A923944A1E84130A00AF3812 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		A923944B1E84130A00AF3812 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		A923944B1E84130A00AF3812 /* Day.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		A923944C1E84130A00AF3812 /* Celebration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Celebration.swift; sourceTree = "<group>"; };
 		A92394501E84135400AF3812 /* DateViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateViewModel.swift; sourceTree = "<group>"; };
 		A923948E1E85148300AF3812 /* HolidayNameSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolidayNameSearchViewController.swift; sourceTree = "<group>"; };
-		A92394921E85232700AF3812 /* MyTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTestViewController.swift; sourceTree = "<group>"; };
-		A92394931E85232700AF3812 /* MyTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyTestViewController.xib; sourceTree = "<group>"; };
-		A923949A1E852CF400AF3812 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		A92C8A4D1E8303B100A85235 /* HolidaySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HolidaySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92C8A501E8303B100A85235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A92C8A551E8303B100A85235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -79,13 +79,11 @@
 		A92C8A5C1E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A92C8A611E8303B200A85235 /* HolidaySearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidaySearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92C8A651E8303B200A85235 /* HolidaySearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaySearchTests.swift; sourceTree = "<group>"; };
-		A92C8A671E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A92C8A671E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../HolidaySearchTests/Info.plist; sourceTree = "<group>"; };
 		A92C8A6C1E8303B200A85235 /* HolidaySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HolidaySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaySearchUITests.swift; sourceTree = "<group>"; };
-		A92C8A721E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A92C8A811E83043500A85235 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		A92C8A721E8303B200A85235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../HolidaySearchUITests/Info.plist; sourceTree = "<group>"; };
 		A9C15E5D1E865E63004383BE /* CelebrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationViewController.swift; sourceTree = "<group>"; };
-		A9C15E5F1E865E6D004383BE /* Structs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
 		A9C15E611E865E7C004383BE /* CelebrationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationService.swift; sourceTree = "<group>"; };
 		A9C15E631E865E8A004383BE /* CelebrationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CelebrationPresenter.swift; sourceTree = "<group>"; };
 		BA4A427DE8269350074F1F91 /* Pods-HolidaySearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HolidaySearch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HolidaySearch/Pods-HolidaySearch.debug.xcconfig"; sourceTree = "<group>"; };
@@ -134,24 +132,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		A90B55651E8682F900B23D63 /* ignore */ = {
-			isa = PBXGroup;
-			children = (
-				A9C15E5F1E865E6D004383BE /* Structs.swift */,
-				A92394921E85232700AF3812 /* MyTestViewController.swift */,
-				A92394931E85232700AF3812 /* MyTestViewController.xib */,
-				A923949A1E852CF400AF3812 /* LoginViewModel.swift */,
-				A92C8A811E83043500A85235 /* SearchViewModel.swift */,
-				A904C6C31E8542DB00B8B70E /* AddViewModel.swift */,
-				A904C6CF1E8559F700B8B70E /* WeatherAPIService.swift */,
-				A904C6CB1E8559D300B8B70E /* WeatherViewModel.swift */,
-				A904C6CC1E8559D300B8B70E /* WeatherOverviewViewController.swift */,
-				A904C6C51E85555A00B8B70E /* SimpleTableViewExampleViewController.swift */,
-				A904C6C11E85429900B8B70E /* AddViewController.swift */,
-			);
-			name = ignore;
-			sourceTree = "<group>";
-		};
 		A90B55661E86837A00B23D63 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,7 +146,6 @@
 			children = (
 				A90B55691E86846800B23D63 /* Presenter */,
 				A90B55681E86846100B23D63 /* View */,
-				A9C15E5D1E865E63004383BE /* CelebrationViewController.swift */,
 			);
 			name = MVP;
 			sourceTree = "<group>";
@@ -174,6 +153,8 @@
 		A90B55681E86846100B23D63 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A9C15E5D1E865E63004383BE /* CelebrationViewController.swift */,
+				A90B55701E87B44D00B23D63 /* CelebrationViewCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -220,10 +201,15 @@
 		A92C8A4F1E8303B100A85235 /* HolidaySearch */ = {
 			isa = PBXGroup;
 			children = (
+				A91CA8161E884D9600078E46 /* CalendarDayCell.swift */,
+				A91CA8171E884D9600078E46 /* CalendarFlowLayout.swift */,
+				A91CA8181E884D9600078E46 /* CalendarHeaderView.swift */,
+				A91CA8191E884D9600078E46 /* CalendarVC.swift */,
+				A91CA8261E895DB400078E46 /* CalendarView.swift */,
+				A91CA8201E89336900078E46 /* NameDayPresenter.swift */,
 				A92C8A801E83041800A85235 /* Model */,
 				A90B55671E86838300B23D63 /* MVP */,
 				A90B55661E86837A00B23D63 /* MVVM */,
-				A90B55651E8682F900B23D63 /* ignore */,
 				A92C8A501E8303B100A85235 /* AppDelegate.swift */,
 				A92C8A541E8303B100A85235 /* Main.storyboard */,
 				A92C8A571E8303B200A85235 /* Assets.xcassets */,
@@ -236,8 +222,10 @@
 		A92C8A641E8303B200A85235 /* HolidaySearchTests */ = {
 			isa = PBXGroup;
 			children = (
+				A91CA8221E894D1D00078E46 /* DateViewModelTest.swift */,
 				A92C8A651E8303B200A85235 /* HolidaySearchTests.swift */,
-				A92C8A671E8303B200A85235 /* Info.plist */,
+				A91CA8241E895AE200078E46 /* CelebrationViewControllerTests.swift */,
+				A92C8A721E8303B200A85235 /* Info.plist */,
 			);
 			path = HolidaySearchTests;
 			sourceTree = "<group>";
@@ -246,7 +234,7 @@
 			isa = PBXGroup;
 			children = (
 				A92C8A701E8303B200A85235 /* HolidaySearchUITests.swift */,
-				A92C8A721E8303B200A85235 /* Info.plist */,
+				A92C8A671E8303B200A85235 /* Info.plist */,
 			);
 			path = HolidaySearchUITests;
 			sourceTree = "<group>";
@@ -255,6 +243,7 @@
 			isa = PBXGroup;
 			children = (
 				A92394501E84135400AF3812 /* DateViewModel.swift */,
+				A90B556C1E86DFEE00B23D63 /* CelebrationViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -272,7 +261,7 @@
 			isa = PBXGroup;
 			children = (
 				A90B556B1E86A09C00B23D63 /* Data */,
-				A923944B1E84130A00AF3812 /* Date.swift */,
+				A923944B1E84130A00AF3812 /* Day.swift */,
 				A923944C1E84130A00AF3812 /* Celebration.swift */,
 			);
 			name = Model;
@@ -398,7 +387,6 @@
 				A92C8A581E8303B200A85235 /* Assets.xcassets in Resources */,
 				A923944D1E84130A00AF3812 /* data.json in Resources */,
 				A92C8A561E8303B100A85235 /* Main.storyboard in Resources */,
-				A92394951E85232700AF3812 /* MyTestViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,25 +459,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A904C6D01E8559F700B8B70E /* WeatherAPIService.swift in Sources */,
+				A91CA81E1E884D9600078E46 /* CalendarVC.swift in Sources */,
+				A91CA81D1E884D9600078E46 /* CalendarHeaderView.swift in Sources */,
 				A9C15E5E1E865E63004383BE /* CelebrationViewController.swift in Sources */,
 				A9C15E621E865E7C004383BE /* CelebrationService.swift in Sources */,
-				A904C6C41E8542DB00B8B70E /* AddViewModel.swift in Sources */,
-				A904C6CD1E8559D300B8B70E /* WeatherViewModel.swift in Sources */,
-				A904C6C21E85429900B8B70E /* AddViewController.swift in Sources */,
 				A923948F1E85148300AF3812 /* HolidayNameSearchViewController.swift in Sources */,
 				A92394511E84135400AF3812 /* DateViewModel.swift in Sources */,
 				A9C15E641E865E8A004383BE /* CelebrationPresenter.swift in Sources */,
-				A9C15E601E865E6D004383BE /* Structs.swift in Sources */,
 				A923944F1E84130A00AF3812 /* Celebration.swift in Sources */,
-				A904C6C61E85555A00B8B70E /* SimpleTableViewExampleViewController.swift in Sources */,
-				A92394941E85232700AF3812 /* MyTestViewController.swift in Sources */,
-				A92C8A821E83043500A85235 /* SearchViewModel.swift in Sources */,
-				A923944E1E84130A00AF3812 /* Date.swift in Sources */,
+				A90B55711E87B44D00B23D63 /* CelebrationViewCell.swift in Sources */,
+				A91CA8271E895DB400078E46 /* CalendarView.swift in Sources */,
+				A91CA81B1E884D9600078E46 /* CalendarDayCell.swift in Sources */,
+				A91CA8211E89336900078E46 /* NameDayPresenter.swift in Sources */,
+				A90B556D1E86DFEE00B23D63 /* CelebrationViewModel.swift in Sources */,
+				A923944E1E84130A00AF3812 /* Day.swift in Sources */,
 				A92394471E83FCD200AF3812 /* WeekdaySearchViewController.swift in Sources */,
 				A92C8A511E8303B100A85235 /* AppDelegate.swift in Sources */,
-				A904C6CE1E8559D300B8B70E /* WeatherOverviewViewController.swift in Sources */,
-				A923949B1E852CF400AF3812 /* LoginViewModel.swift in Sources */,
+				A91CA81C1E884D9600078E46 /* CalendarFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +483,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A91CA8251E895AE200078E46 /* CelebrationViewControllerTests.swift in Sources */,
+				A91CA8231E894D1D00078E46 /* DateViewModelTest.swift in Sources */,
 				A92C8A661E8303B200A85235 /* HolidaySearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

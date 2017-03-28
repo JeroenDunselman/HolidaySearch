@@ -7,8 +7,7 @@
 //
 
 import Foundation
-import UIKit
-// represents a single photo in a Flickr search
+
 public class Celebration {
 
   let title :String
@@ -16,31 +15,15 @@ public class Celebration {
   let rank :String
   let num :Double
   let date :String
-  let colour : UIColor
-  let dateInfo :DateViewModel
+  let dateInfo :DayViewModel
   
-  init (title: String, colour: String, rank: String, num: Double, dateText: String, dateInfo: DateViewModel) {
+  init (title: String, colour: String, rank: String, num: Double, dateText: String, dateInfo: DayViewModel) {
     self.title = title
     self.colourText = colour
     self.rank = rank
     self.num = num
     self.date = dateText
     self.dateInfo = dateInfo
-    
-    var result :UIColor = UIColor.black
-    switch colour {
-    case "red":
-      result = UIColor.red
-    case "green":
-      result = UIColor.green
-    case "white":
-      result = UIColor.yellow
-    case "violet":
-      result = UIColor.purple
-    default :
-      result = UIColor.gray
-    }
-    self.colour = result
   }
   
 }

@@ -1,4 +1,18 @@
 [
+ {
+ "date":"2017-03-29",
+ "season":"ordinary",
+ "season_week":31,
+ "celebrations":[
+                 {
+                 "title":"Holy Mackerel",
+                 "colour":"white",
+                 "rank":"solemnity",
+                 "rank_num":1.3
+                 }
+                 ],
+ "weekday":"wednesday"
+ },
   {
     "date":"2017-11-01",
     "season":"ordinary",
