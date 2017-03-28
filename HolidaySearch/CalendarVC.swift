@@ -129,9 +129,7 @@ class CalendarVC: UIViewController, CalendarViewDataSource, CalendarViewDelegate
                     self.calendarView.events = eventsBetweenDates
 
                 }
-//             self.calendarView.nameDayEvents = [NameDayViewData]()
-//              self.nameDayPresenter
-//              
+              
             }
             
             // let q = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_HIGH, 0)

@@ -90,7 +90,6 @@ class NameDayPresenter {
   
   func getNameDays() {
 
-
     func addEventToCalendar(title: String, description: String?, startDate: NSDate, endDate: NSDate, completion: ((_ success: Bool, _ error: NSError?) -> Void)? = nil) {
       let eventStore = EKEventStore()
       
@@ -108,14 +107,12 @@ class NameDayPresenter {
             completion?(false, e)
             return
           }
-          completion?(true, nil)
+          completion?(true, nil)//line reached 
         } else {
           completion?(false, error as NSError?)
         }
       })
     }
-//    let startDate:NSDate = NSDate(timeInterval: -2*24*60*60, since: Date())
-//    addEventToCalendar(title: "Girlfriend birthday", description: "Remember or die!", startDate: startDate, endDate: NSDate())
     
     //    NameDay is a titled Celebration
     let mappedCelebrations = celebrationService.parseCelebList()
@@ -131,4 +128,23 @@ class NameDayPresenter {
     }
     self.calendarView?.setNameDayEvents(mappedCelebrations)
   }
+
+//MARK  - Issue: crashes the simulator eventstore without error
+//    let startDate:NSDate = NSDate(timeInterval: -2*24*60*60, since: Date())
+//    addEventToCalendar(title: "Girlfriend birthday", description: "Remember or die!", startDate: startDate, endDate: NSDate())
+  
+  
+/*  "date":"2017-03-29",
+ "season":"ordinary",
+ "season_week":31,
+ "celebrations":[
+ {
+ "title":"Holy Mackerel",
+ "colour":"white",
+ "rank":"solemnity",
+ "rank_num":1.3
+ }
+ ],
+ "weekday":"wednesday"
+ },*/
 }

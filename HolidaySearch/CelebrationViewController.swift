@@ -3,47 +3,44 @@ import RxSwift
 
 class CelebrationViewController: UIViewController {
   
+//  @IBAction func switchChange(_ sender: Any) {
+//    if(sender.isOn){
+//      self.searchBar.text = ""
+//    }
+//  }
+  @IBOutlet weak var switchNamedays: UISwitch!
   @IBOutlet weak var emptyView: UIView?
   @IBOutlet weak var tableView: UITableView?
   @IBOutlet weak var activityIndicator: UIActivityIndicatorView?
   @IBOutlet weak var searchBar: UISearchBar!
   
-  let disposeBag = DisposeBag()
   fileprivate let celebrationPresenter = CelebrationPresenter(celebrationService: CelebrationService())
-  fileprivate var celebrationsAll : [CelebrationViewData] = [CelebrationViewData]()
+//  fileprivate var celebrationsAll : [CelebrationViewData] = [CelebrationViewData]()
   fileprivate var celebrationsToDisplay : [CelebrationViewData] = [CelebrationViewData]()
-  
+  func switchValueDidChange(sender:UISwitch!) {
+    if sender.isOn {
+//      switchState.text = "UISwitch is ON"
+      self.searchBar.text = ""
+    } else {
+//      switchState.text = "UISwitch is OFF"
+      
+    }
+  }
   override func viewDidLoad() {
     super.viewDidLoad()
     tableView?.dataSource = self
+    tableView?.keyboardDismissMode = .onDrag
     
     activityIndicator?.hidesWhenStopped = true
+//    switchNamedays.addTarget(self, action: #selector(self.switchIsChanged(_:)), forControlEvents: UIControlEvents.ValueChanged)
     
+    switchNamedays.addTarget(self, action: #selector(self.switchValueDidChange(sender:)), for: .valueChanged)
+
     celebrationPresenter.attachView(self)
     celebrationPresenter.getCelebrations()
-    setupSearchBar()
+    celebrationPresenter.setupSearchBar(searchBar: self.searchBar)
+    celebrationPresenter.setupSwitchNameDays(switchNameDays: self.switchNamedays)
   }
-  
-  func setupSearchBar() {
-    searchBar.autocapitalizationType = UITextAutocapitalizationType.none
-    
-    searchBar
-      .rx.text
-      .orEmpty
-      .debounce(0.5, scheduler: MainScheduler.instance)
-      .distinctUntilChanged()
-      .subscribe(onNext: { [unowned self] searchtext in
-        // Show all if searchtext empty, else query
-//        self.celebrationPresenter.detachView()
-        self.celebrationsToDisplay = searchtext.isEmpty ?
-          self.celebrationsAll :
-          self.celebrationsAll.filter { $0.title.contains(searchtext) }
-//        self.celebrationPresenter.attachView(self.)
-        self.tableView?.reloadData()
-      })
-      .addDisposableTo(disposeBag)
-  }
-  
 }
 
 extension CelebrationViewController: UITableViewDataSource {
@@ -83,8 +80,9 @@ extension CelebrationViewController: CelebrationView {
   }
   
   func setCelebrations(_ celebrations: [CelebrationViewData]) {
+
     celebrationsToDisplay = celebrations
-    celebrationsAll = celebrations
+//    celebrationsAll = celebrations
     tableView?.isHidden = false
     emptyView?.isHidden = true;
     tableView?.reloadData()
@@ -97,3 +95,27 @@ extension CelebrationViewController: CelebrationView {
   
   
 }
+
+
+/* moved to presenter
+ let disposeBag = DisposeBag()
+ func setupSearchBar() {
+ searchBar.autocapitalizationType = UITextAutocapitalizationType.none
+ 
+ searchBar
+ .rx.text
+ .orEmpty
+ .debounce(0.5, scheduler: MainScheduler.instance)
+ .distinctUntilChanged()
+ .subscribe(onNext: { [unowned self] searchtext in
+ // Show all if searchtext empty, else query
+ //        self.celebrationPresenter.detachView()
+ self.celebrationsToDisplay = searchtext.isEmpty ?
+ self.celebrationsAll :
+ self.celebrationsAll.filter { $0.title.contains(searchtext) }
+ //        self.celebrationPresenter.attachView(self.)
+ self.tableView?.reloadData()
+ })
+ .addDisposableTo(disposeBag)
+ }
+ */

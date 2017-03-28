@@ -4,7 +4,6 @@
 //
 //  Created by Jeroen Dunselman on 26/03/2017.
 //  Copyright © 2017 Jeroen Dunselman. All rights reserved.
-//
 
 import UIKit
 

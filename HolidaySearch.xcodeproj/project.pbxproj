@@ -201,15 +201,9 @@
 		A92C8A4F1E8303B100A85235 /* HolidaySearch */ = {
 			isa = PBXGroup;
 			children = (
-				A91CA8161E884D9600078E46 /* CalendarDayCell.swift */,
-				A91CA8171E884D9600078E46 /* CalendarFlowLayout.swift */,
-				A91CA8181E884D9600078E46 /* CalendarHeaderView.swift */,
-				A91CA8191E884D9600078E46 /* CalendarVC.swift */,
-				A91CA8261E895DB400078E46 /* CalendarView.swift */,
-				A91CA8201E89336900078E46 /* NameDayPresenter.swift */,
 				A92C8A801E83041800A85235 /* Model */,
 				A90B55671E86838300B23D63 /* MVP */,
-				A90B55661E86837A00B23D63 /* MVVM */,
+				A9435B4B1E8AACAD00ECF4CE /* TabBarItems */,
 				A92C8A501E8303B100A85235 /* AppDelegate.swift */,
 				A92C8A541E8303B100A85235 /* Main.storyboard */,
 				A92C8A571E8303B200A85235 /* Assets.xcassets */,
@@ -265,6 +259,44 @@
 				A923944C1E84130A00AF3812 /* Celebration.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		A9435B4B1E8AACAD00ECF4CE /* TabBarItems */ = {
+			isa = PBXGroup;
+			children = (
+				A90B55661E86837A00B23D63 /* MVVM */,
+				A9435B4C1E8AACB900ECF4CE /* Calendar attempt */,
+			);
+			name = TabBarItems;
+			sourceTree = "<group>";
+		};
+		A9435B4C1E8AACB900ECF4CE /* Calendar attempt */ = {
+			isa = PBXGroup;
+			children = (
+				A9435B4D1E8AAE9800ECF4CE /* Presenter */,
+				A9435B4E1E8AAEA100ECF4CE /* View */,
+			);
+			name = "Calendar attempt";
+			sourceTree = "<group>";
+		};
+		A9435B4D1E8AAE9800ECF4CE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				A91CA8201E89336900078E46 /* NameDayPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		A9435B4E1E8AAEA100ECF4CE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A91CA8161E884D9600078E46 /* CalendarDayCell.swift */,
+				A91CA8171E884D9600078E46 /* CalendarFlowLayout.swift */,
+				A91CA8181E884D9600078E46 /* CalendarHeaderView.swift */,
+				A91CA8191E884D9600078E46 /* CalendarVC.swift */,
+				A91CA8261E895DB400078E46 /* CalendarView.swift */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
